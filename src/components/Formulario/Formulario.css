@@ -1,0 +1,128 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0px;
+}
+
+.button{
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background-color: transparent;
+    color: #333;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.input{
+    padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  transition: border-color 0.3s;
+}
+
+.input2{
+    padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  transition: border-color 0.3s;
+  height: 100px;
+}
+
+.title1{
+    font-size: larger;
+    font-family: 'Quicksand';
+}
+
+.form2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.container{
+    background-color: rgb(197, 185, 122);
+    min-width: 800px;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    overflow-y: auto;
+}
+
+.general{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.orders{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto; /* Agregado: Desbordamiento vertical si es necesario */
+  max-width: 800px; /* Puedes ajustar el valor según tus necesidades */
+  margin: 0 auto;
+}
+
+.pileorders{
+    list-style: none;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.totalOrders{
+    background-color: rgb(227, 148, 112);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    max-width: 300px;
+    min-height: 100px;
+    min-width: 200px;
+    border-radius: 20px;
+}
+
+.order{
+    background-color: rgb(239, 225, 164);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    min-width: 400px;
+    min-height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.deleteIcon{
+    width: 20px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+
+
+
+

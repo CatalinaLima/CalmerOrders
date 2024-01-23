@@ -1,0 +1,153 @@
+.encabezado{
+    width: 100%;
+}
+
+.category-item{
+    margin:10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 60px;
+}
+
+.image-grid{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.hpimg{
+    height: 300px;
+}
+
+.titleh1{
+    font-family: 'Quicksand';
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: rgb(49, 49, 49);
+}
+
+.titleh2{
+    font-family: 'Quicksand';
+    margin-top: 50px ;
+    margin-bottom: 50px;
+    color: rgb(49, 49, 49);
+    font-weight: 900;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+
+.boton{
+    padding: 12px;
+    color: white;
+    font-size: 15px;
+    max-width: 500px;
+    background-color: rgb(49, 50, 49);
+    border-radius: 4px; 
+    border: none;
+    margin: 5px 15px;
+    cursor: pointer;
+}
+
+.featured-item{
+    margin:10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    height: 500px;
+    width: 500px;
+}
+
+.hpimg2{
+    height: 550px;
+    transition: 1.5s;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.hpimg2:hover{
+    transform: scale(1.2);
+}
+
+.section3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.infohp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hpimg3{
+    height: 800px;
+}
+
+
+.section2 .featured-item {
+    position: relative;
+    overflow: hidden; /* Para asegurarse de que el texto no se desborde fuera de la imagen */
+}
+
+
+
+.section2 .featured-item p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; /* Para centrar el texto horizontalmente */
+    width: 30%; /* Para limitar el ancho del texto */
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente para hacer el texto más legible */
+    padding: 10px; /* Espaciado interno del texto */
+    margin: 0; /* Elimina cualquier margen predeterminado del párrafo */
+}
+
+.titlehpgrid{
+    font-family: 'Quicksand';
+    font-weight:500;
+}
+
+.foto{
+    height: 300px;
+    margin: 0px 5px;
+}
+
+
+
+
+
+
+
+

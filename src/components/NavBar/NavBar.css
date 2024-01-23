@@ -1,0 +1,31 @@
+.nav-menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px; /* Add padding for spacing around the logo and links */
+  background-color: rgba(86, 92, 62, 0.9);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  height: 140px;
+  margin: 0;
+}
+
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 20px; /* Adjust padding for spacing on both sides */
+  flex: 1; /* Allow the logo to take up available space */
+  font-family: 'Roboto';
+  font-size: 40px;
+  color: rgb(78, 121, 179);
+  margin-left: 40px;
+}
+
+.titulo{
+  color: rgb(232, 208, 112);
+}
+
